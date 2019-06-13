@@ -1,0 +1,22 @@
+{
+  "name": "scss_project",
+  "version": "1.0.0",
+  "description": "Test project for learing of SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliaHappy/SCSS.git"
+  },
+  "author": "Iuliia Tr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliaHappy/SCSS/issues"
+  },
+  "homepage": "https://github.com/YuliaHappy/SCSS#readme",
+  "devDependencies": {
+    "webpack": "^4.34.0"
+  }
+}
