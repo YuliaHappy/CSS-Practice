@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Global interesting post about CSS - *https://habr.com/ru/post/348500/*
+
 *SCSS* is preprocessor of CSS. 
 - *https://nicothin.pro/page/css-preprocessors*
 - *https://habr.com/ru/post/214143/*
@@ -9,7 +11,11 @@
 
 *(Why preprocessors are better? - https://habr.com/ru/post/151679/)*
 
-You may use this project as prototype for decide tasks with SCSS.
+*PostCSS* is postprocesor of CSS.
+- *https://howis.ru/css-postprocessors-preprocessors/*
+- *https://www.hongkiat.com/blog/css-post-processors-tips-resources/*
+
+You may use this project as prototype for decide tasks with styles.
 
 ## SCSS
 
@@ -18,6 +24,13 @@ Good links for you:
 - https://sass-lang.com/guide
 - https://www.sassmeister.com/
 
+## PostCSS
+
+### Overview
+Good links for you:
+- https://postcss.org/
+
+
 ### Steps
 
 1. Fork this repository.
@@ -25,6 +38,7 @@ Good links for you:
 3. Install [Node.js](http://nodejs.org/).
 4. Install project dependencies by `npm install`.
 5. Run project with command `npm run start`.
-6. Go to the src/scss folder and update styles.
-7. And don't forget to commit working decision ;)
+6. Read comments, understand configuration for pre&post-processing of CSS (you may update configuration, it'll so cool).
+7. Go to the src/scss folder and update styles (for index.html - same).
+8. And don't forget to commit working decision ;)
 

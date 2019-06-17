@@ -1,11 +1,11 @@
 {
   "name": "scss_project",
   "version": "1.0.0",
-  "description": "Test project for learing of SCSS",
+  "description": "Test project for learning of CSS Practice",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack --watch"
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4"
+    "webpack-cli": "^3.3.4",
+    "autoprefixer": "^7.2.3",
+    "postcss-loader": "^2.0.9"
   }
 }
