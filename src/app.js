@@ -1,1 +1,1 @@
-import './scss/base.less'
+import './less/base.less'
