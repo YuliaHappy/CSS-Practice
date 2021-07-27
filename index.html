@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>LESS</title>
-		<link rel='stylesheet' href='dist/style.css'>
-	</head>
-	<body>
-		<h1>It's work!</h1>
-		<script type="text/javascript" src="dist/bundle.js"></script>
-	</body>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>WeatherForecast</title>
+	<link rel='stylesheet' href='dist\style.css'>
+</head>
+<body>
+<div class="weather">
+	<div class="weather__body">
+		<div class="weather__column">
+			<div class="item">
+				<div class="item__shadow"></div>
+				<div class="item__date">31.08</div>
+				<img class="item__icon" src="src\pics\weather-sun.jpg">
+				<div class="item__temperature">+20&deg;C</div>
+			</div>
+		</div>
+		<div class="weather__column">
+			<div class="item">
+				<div class="item__shadow"></div>
+				<div class="item__date">01.09</div>
+				<img class="item__icon" src="src\pics\weather-snow.jpg">
+				<div class="item__temperature">-3&deg;C</div>
+			</div>
+		</div>
+		<div class="weather__column">
+			<div class="item">
+				<div class="item__shadow"></div>
+				<div class="item__date">02.09</div>
+				<img class="item__icon" src="src\pics\weather-blizzard.jpg">
+				<div class="item__temperature">-10&deg;C</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
 </html>

@@ -1,8 +1,41 @@
-// After run project change this property to another color, save, reload page (preprocessor's working, WOW).
-@bg-color: pink;
-
-body {
-    background: @bg-color;
-    // View this property in result variant in console (postprocessor's working, WOW).
-    display: flex;
+.weather {
+&__body {
+display: flex;
+width: 500px;
+margin:auto;
+}
+&__column {
+flex: 0 0 30%;
+float: right
+}
+}
+.item {
+width: 200px;
+height: 200px;
+&__shadow {
+content: "";
+position: absolute;
+width: 200;
+height: 200px;
+}
+&__date {
+height: 20px;
+background-color: rgb(0, 102, 255);
+color: white;
+font-size: 25px;
+text-align: center;
+}
+&__icon {
+width:150px;
+}
+&__temperature {
+font-size: 25px;
+text-align: center;
+height: 20px;
+}
+:hover {
+box-shadow:
+1px 1px 10 px rgb(130, 130, 130);
+-1px -1px 10 px rgb(130, 130, 130);
+}
 }
